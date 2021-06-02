@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sportsman", "Sportsman\Sportsman.csproj", "{FB179C7D-050A-4E3F-8AA0-9F87840BDE1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{DDA5EB6F-7822-4400-B9FE-752DA67FFAA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB179C7D-050A-4E3F-8AA0-9F87840BDE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB179C7D-050A-4E3F-8AA0-9F87840BDE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB179C7D-050A-4E3F-8AA0-9F87840BDE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB179C7D-050A-4E3F-8AA0-9F87840BDE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA5EB6F-7822-4400-B9FE-752DA67FFAA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA5EB6F-7822-4400-B9FE-752DA67FFAA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA5EB6F-7822-4400-B9FE-752DA67FFAA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA5EB6F-7822-4400-B9FE-752DA67FFAA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D412639-6DAF-4F73-A567-A71A5665BC3E}
+	EndGlobalSection
+EndGlobal
