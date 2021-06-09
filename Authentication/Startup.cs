@@ -37,6 +37,7 @@ namespace Authentication
                 .AddEntityFrameworkStores<AuthDbContext>()
                 .AddSignInManager();
             services.AddControllers();
+            services.AddCors();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "Authentication", Version = "v1"});
@@ -83,7 +84,9 @@ namespace Authentication
             app.UseRouting();
 
             app.UseAuthorization();
-
+            
+            app.UseCors(builder => builder.AllowAnyOrigin());
+            
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
         }
     }
